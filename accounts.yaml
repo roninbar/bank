@@ -1,0 +1,19 @@
+---
+- 
+  type: business
+  id: 575746/79
+  name: Ron Inbar
+  balance: 10000
+- 
+  type: student
+  id: 111111/11
+  name: Dan Inbar
+  balance: 10000
+  college: tau
+- 
+  type: student
+  id: 222222/22
+  name: Uri Inbar
+  balance: 10000
+  college: huji
+...
