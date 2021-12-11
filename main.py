@@ -1,9 +1,8 @@
 from Bank import Bank
 
-bank1 = Bank()
-bank2 = Bank()
+bank = Bank()
 
-bank1.load('accounts.yaml')
+bank.load('accounts.yaml')
 
-print(bank1)
+print(bank)
 

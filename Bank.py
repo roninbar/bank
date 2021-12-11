@@ -32,5 +32,6 @@ class Bank:
 
     def stats(self):
         return {'mean': 0, 'std': 1, 'p10': 0, 'median': 0, 'p90': 0}
+
+
     
-    pass
