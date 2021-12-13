@@ -13,8 +13,14 @@ class BusinessInfo:
 
 class BusinessBankAccount(BankAccount):
 
+    def deposit(self, amount: float):
+        super(BusinessBankAccount, self).deposit(amount)
+
+    def withdraw(self, amount: float):
+        super(BusinessBankAccount, self).withdraw(amount)
+
     def __init__(self, id: str, name: str, balance: float):
-        super().__init__(id, name, balance)
+        super(BusinessBankAccount, self).__init__(id, name, balance)
         self.business_info = BusinessInfo(id, name)
 
     def __str__(self):
