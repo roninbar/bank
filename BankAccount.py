@@ -6,7 +6,7 @@ class BankAccount:
         self.balance = balance
 
     def __str__(self):
-        return f"{self.id} {self.name} -> {self.balance}"
+        return f'{{ id: "{self.id}", name: "{self.name}", balance: {self.balance} }}'
     
     def deposit(self, amount: float):
         self.balance += amount
